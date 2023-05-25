@@ -9,6 +9,19 @@
         body{
             background-color: cyan;
         }
+        #interestText{
+            text-align: center;
+            font-family: 'Comic Sans MS';
+            border: 5px solid seagreen;
+            border-radius: 10px;
+            margin: auto;
+            max-width: 800px;
+            height: auto;
+            background-color: lightseagreen;
+            box-shadow: 5px 10px black;
+            padding: 25px;
+            font-size: x-large;
+        }
         #sidebar{
             background-color: limegreen;
             border: 3px solid green ;
@@ -16,22 +29,31 @@
             width: 200px;
             font-size: xx-large;
         }
+        ul.inList{
+            display: inline-block;
+            text-align: left;
+        }
     </style>
 </head>
 <script>
     alert('Welcome to my interests page')
 </script>
 <body>
-    <div id="text">
+    <div id="interestText">
         <p>
-            here are some 
-
+            Here are some things I am interested in:
+            <ul class="inList">
+                <li>Computer Science</li>
+                <li>Networking</li>
+                <li>Game Development</li>
+            </ul>
         </p>
+
     </div>
     <div id="sidebar">
         <a href="intro.html">Intro</a><br>
         <a href="Gamefiles/index.html">Game</a><br>
-        <br>
+        <a href="https://schoology.ytech.edu/">Schoology</a><br>
         <br>
         <br>
         <br>
